@@ -18,26 +18,6 @@ Paranoid text spacing for good readability, to automatically insert whitespace b
 
 This version uses narrow non-breaking spaces (U+202F), which may not display correctly in some environments. Please use with caution.
 
-## 下载 / Download
-
-请先设置 JitPack repository / Set JitPack repository first
-
-Maven:
-```xml
-<dependency>
-    <groupId>com.github.Yos-X</groupId>
-    <artifactId>pangu.kt</artifactId>
-    <version>1.0.0</version>
-</dependency>
-```
-
-or Gradle:
-
-```groovy
-dependencies {
-    implementation 'com.github.Yos-X:pangu.kt:1.0.0'
-}
-```
 
 ## 使用方法 / Usage
 
