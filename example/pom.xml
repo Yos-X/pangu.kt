@@ -8,9 +8,9 @@
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
-      <groupId>ws.vinta</groupId>
-      <artifactId>pangu</artifactId>
-      <version>1.1.0</version>
+      <groupId>com.github.Yos-X</groupId>
+      <artifactId>pangu.kt</artifactId>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
 </project>

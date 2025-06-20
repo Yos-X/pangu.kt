@@ -1,12 +1,14 @@
-package pangu_example;
+package pangu_example
 
-import ws.vinta.pangu.Pangu;
+import ws.vinta.pangu.Pangu
 
-public class ExampleApp {
-    public static void main(String[] args) {
-        Pangu pangu = new Pangu();
+object ExampleApp {
+    @JvmStatic
+    fun main(args: Array<String>) {
+        val pangu = Pangu()
 
-        String text = pangu.spacingText("東邪、西毒、南帝、北丐和Ichiro Suzuki五人，為爭一部The Old Man and the Sea，約定在板橋Mega City的3樓比武較量。");
-        System.out.println(text);
+        val text =
+            pangu.spacingText("Mongolia大草原神话也不少，蒸气的英文是Steam，顺带一提瓦特改良了蒸汽机(Steam Engine)，刘德华为什么很少演反派，小华为了考试提前就醒来了，挤了5g牙膏刷刷牙就匆匆赶到学校了")
+        println(text)
     }
 }
