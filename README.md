@@ -3,8 +3,9 @@ Pangu.kt
 
 [![](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg?style=flat-square)](https://vinta.ws/code/)
 
-智能文本排版工具 / Paranoid text spacing for good readability
-自动在中文、日文、韩文和半角英文、数字、符号之间插入适当的空格 / to automatically insert whitespace between CJK (Chinese, Japanese, Korean), half-width English, digit and symbol characters.
+智能文本排版工具，自动在中文、日文、韩文和半角英文、数字、符号之间插入适当的空格
+
+Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean), half-width English, digit and symbol characters.
 
 - [pangu.go](https://github.com/vinta/pangu) (Go)
 - [pangu.java](https://github.com/vinta/pangu.java) (Java)
@@ -13,7 +14,7 @@ Pangu.kt
 - [pangu.space](https://github.com/vinta/pangu.space) (Web API)
 
 ## 此版本的注意事项 / Notes for this version
-由于采用了窄空格进行替换 (U+202F)，在某些环境下可能无法正常显示，请多加注意。  
+由于采用了窄空格进行替换 (U+202F)，在某些环境下可能无法正常显示，请多加注意
 This version uses narrow non-breaking spaces (U+202F), which may not display correctly in some environments. Please use with caution.
 
 ## 下载 / Download
