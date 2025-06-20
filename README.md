@@ -51,9 +51,3 @@ fun main() {
     // 输出 Output: "小华为了考试提前就醒来了，挤了 5g 牙膏刷刷牙就匆匆赶到学校了"
 }
 ```
-
-## 运行测试 / Run Tests
-
-```console
-$ mvn test
-```
