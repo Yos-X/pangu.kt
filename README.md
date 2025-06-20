@@ -15,6 +15,7 @@ Paranoid text spacing for good readability, to automatically insert whitespace b
 
 ## 此版本的注意事项 / Notes for this version
 由于采用了窄空格进行替换 (U+202F)，在某些环境下可能无法正常显示，请多加注意
+
 This version uses narrow non-breaking spaces (U+202F), which may not display correctly in some environments. Please use with caution.
 
 ## 下载 / Download
